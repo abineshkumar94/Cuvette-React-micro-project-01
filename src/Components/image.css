@@ -1,0 +1,49 @@
+.card-front {
+  width: 200px;
+  height: 100px;
+  border-radius: 10px;
+  border: 1px;
+  margin-top: 10px;
+  margin-bottom: 235px;
+  z-index: 1;
+  margin-left: -133px;
+}
+
+.card-back {
+  width: 200px;
+  height: 100px;
+  border-radius: 10px;
+  border: 1px;
+  margin-top: 10px;
+  margin-bottom: 63px;
+  z-index: 1;
+  margin-left: -147px;
+}
+
+.card-name {
+  color: rgb(241, 233, 225);
+  margin-left: 126px;
+  margin-top: -267px;
+  font-size: 9px;
+}
+
+.card-num {
+  color: rgb(241, 233, 225);
+  margin-left: 145px;
+  margin-top: -51px;
+}
+
+ .card-mm {
+  color: rgb(241, 233, 225);
+  margin-left: -235px;
+  text-align: center;
+  font-size: 9PX;
+  margin-bottom: 10px;
+ }
+
+
+.cvc-out{
+  color: rgb(128, 125, 122);
+  margin-left: 324px;
+  margin-top: 103px;
+}

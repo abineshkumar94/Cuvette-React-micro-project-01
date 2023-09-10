@@ -1,0 +1,96 @@
+.form-container {
+  width: 100px;
+  border: none;
+  margin-left: 445px;
+  margin-top: -195px;
+  line-height: 23px;
+}
+
+.form-container label {
+  display: block;
+  text-align: left;
+  font-size: 11px;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  width: 200%;
+  margin-bottom: 20px;
+}
+
+.error-name {
+  font-size: 7px;
+  color: red;
+  display: flex;
+  margin-top: -26px;
+}
+
+.error-number {
+  font-size: 7px;
+  color: red;
+  display: flex;
+  margin-top: -25px;
+}
+
+.number {
+  display: flex;
+  flex-direction: column;
+  width: 200%;
+  margin-bottom: 20px;
+}
+
+.expmm {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.expyy {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-top: -20px;
+  margin-left: 59px;
+}
+
+.cvc {
+  display: flex;
+  flex-direction: column;
+  width: 51%;
+  margin-top: -49px;
+  margin-left: 120px;
+}
+
+.cvc-error {
+  font-size: 7px;
+  color: red;
+  display: flex;
+  margin-left: 120px;
+  white-space: nowrap;
+  margin-top: -6px;
+}
+
+.exp-lab {
+  font-size: 11px;
+  white-space: nowrap;
+}
+
+.cvc-lab {
+  font-size: 11px;
+  white-space: nowrap;
+}
+
+.btn {
+  width: 175px;
+  height: 27px;
+  top: 625px;
+  left: 814px;
+  border-radius: 6px;
+  border: 1px;
+  background: #220930;
+  color: white;
+  margin-top: 15px;
+}

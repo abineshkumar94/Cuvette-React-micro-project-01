@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
+import React, { useState } from 'react';
+import './App.css';
+import Background from './Components/image';
+import Form from './Components/Form';
+
+const App = () => {
+  const [cardInfo, setCardInfo] = useState({
+    cardholdername: '',
+    cardnumber: '',
+    expdateMM: '',
+    expdateYY: '',
+    cvv: '',
+  });
+
+  const handleCardInfoChange = (updatedCardInfo) => {
+    setCardInfo(updatedCardInfo);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Background cardInfo={cardInfo} />
+      <Form onCardInfoChange={handleCardInfoChange} />
     </div>
   );
-}
+};
 
 export default App;
